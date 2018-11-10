@@ -1,0 +1,23 @@
+<table [class]="classtouse" [class.class3]="usingclass3">
+<tr>
+<td>First Name</td>
+<td [innerHtml]="firstName"></td>
+</tr>
+<tr>
+<td>Last Name</td>
+<td [innerHtml]="lastName"></td>
+</tr>
+<tr>
+<td>Full Name</td>
+<td >Mr {{empName()}}</td>
+</tr>
+<tr>
+<td>Salary</td>
+<td>{{salary * 10}}</td>
+</tr>
+
+<tr>
+<td>Department</td>
+<td [innerHtml]="department"></td>
+</tr>
+</table>

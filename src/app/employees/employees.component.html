@@ -21,7 +21,7 @@
    <td>{{emp.dob | date:'dd/MM/y'}}</td>
 </tr>
 
-<tr *ngIf = "employees.length==0">
+<tr *ngIf = "employees?.length==0">
      <td colspan="5">No Data To Display</td>
 </tr>
 
